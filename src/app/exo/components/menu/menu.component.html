@@ -12,3 +12,11 @@
     </div>
     
 </div>
+
+<br>
+<form [formGroup]="addPlatForm" (ngSubmit)="send()">
+<input type="text" formControlName="nom" >nom<br>
+<input type="text" formControlName="type" >type<br>
+<input type="number" formControlName="prix" >prix<br>
+<button type="submit" >envoyer</button>
+</form>

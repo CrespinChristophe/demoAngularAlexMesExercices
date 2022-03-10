@@ -29,6 +29,18 @@
       "nom": "bresilienne",
       "type": "dessert",
       "prix": 5555
+    },
+    {
+      "nom": "erg",
+      "type": "rge",
+      "prix": 100,
+      "id": 12
+    },
+    {
+      "nom": "yolo",
+      "type": "hahaha",
+      "prix": 100000,
+      "id": 13
     }
   ]
 }

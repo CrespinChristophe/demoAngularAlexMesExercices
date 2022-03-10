@@ -24,7 +24,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MenuItemComponent } from './components/menu/menu-item/menu-item.component';
 import { PanierItemComponent } from './components/panier/panier-item/panier-item.component';
 import { ObjectifComponent } from './components/objectif/objectif.component';
-import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -57,8 +57,6 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     ExoRoutingModule,
     SharedModule,
-    ReactiveFormsModule,
-    HttpClientModule
-  ]
+    ReactiveFormsModule,  ]
 })
 export class ExoModule { }

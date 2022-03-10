@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { Page404Component } from './components/page404/page404.component';
 import { HeaderComponent } from './components/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [],
   providers: [],
